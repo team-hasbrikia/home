@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "cascadia";
+    src: url("./cascadia-code-Regular.woff") format("woff");
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "cascadia";
+    background: linear-gradient(to left, rgb(255, 60, 92), rgb(117, 114, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+  }
+  
+  h1#title {
+    font-size: 3.5em;
+  }
+  
+  h2#description {
+    font-size: 1.5em;
+    background: linear-gradient(to left, rgb(255, 164, 60), rgb(180, 114, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+  }
+  
+  body,
+  html {
+    background-color: rgb(5, 5, 5);
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(20, 20, 20);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(30, 30, 30);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(45, 45, 45);
+  }
